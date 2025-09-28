@@ -44,6 +44,22 @@ theme = "minimal-bootstrap-hugo-theme"
   name = "About"
   url = "/about/"
   weight = 3
+  [[menu.nav]]
+  name = "1st"
+  url = "/1st/"
+  weight = 4
+  [[menu.nav]]
+  name = "2nd"
+  url = "/2nd/"
+  weight = 5
+  [[menu.nav]]
+  name = "3rd"
+  url = "/3rd/"
+  weight = 6
+  [[menu.nav]]
+  name = "4th"
+  url = "/4th/"
+  weight = 7
 
 
 [markup]
