@@ -1,5 +1,5 @@
 ---
-title: "Программирование 3 семестр"
+title: "Программирование 1 семестр"
 date: 2023-11-11
 publishdate: 2024-06-07
 draft: false
@@ -9,41 +9,15 @@ tags: ["Программирование"]
 ---
 
 ## Лабораторная работа 1
-* Калькулятор
-[Открыть](https://replit.com/@diamorozov/Calc1?v=1)
-* Игра угадай число
-[Открыть](https://replit.com/@diamorozov/guess-number)
+* ?
+[Открыть](https://disk.yandex.ru/i/5atqNUbcU53Qag)
+
 
 ## Лабораторная работа 2
-* Работа с множествами
-[Открыть](https://disk.yandex.ru/i/pocb7AR6mtqZaA)
+* ?
+[Открыть](https://disk.yandex.ru/i/wqYpe8PecUNE5g)
 
 ## Лабораторная работа 3
-Усовершенствование калькулятора
-1. [Часть 1](https://replit.com/@diamorozov/Calc2)
-2. [Часть 2](https://replit.com/@diamorozov/Calc3)
-
-## Лабораторная работа 4
-Алгоритмы на Python и мемоизация
-1. [Открыть](https://replit.com/@diamorozov/twosum)
-2. [Открыть](https://replit.com/@diamorozov/twosumhashed)
-3. [Открыть](https://replit.com/@diamorozov/twosumhashedall)
-4. [Открыть](https://replit.com/@diamorozov/memoization)
-
-Использование библиотечный модулей: отправка почты через smtp, запрос погоды, построение графиков с помощью matplotlib
-1. [Открыть](https://replit.com/@diamorozov/smtplib)
-2. [Открыть](https://replit.com/@diamorozov/wheather)
-3. [Открыть](https://replit.com/@diamorozov/matplotlib)
-
-## Лабораторная работа 5
-Итераторы и генераторы
-1. [Открыть](https://replit.com/@diamorozov/lab-5-11)
-2. [Открыть](https://replit.com/@diamorozov/lab-5-12)
-3. [Открыть](https://replit.com/@diamorozov/lab-5-13)
-4. [Открыть](https://replit.com/@diamorozov/lab-5-14)
-
-Менеджеры контекста. Работа с MongoDB
-1. [Открыть](https://replit.com/@diamorozov/lab-5-21)
-2. [Открыть](https://replit.com/@diamorozov/lab-5-22)
-3. [Открыть](https://replit.com/@diamorozov/mongo)
+* ?
+[Открыть](https://disk.yandex.ru/i/Z3dUR7ycrL5iww)
 
