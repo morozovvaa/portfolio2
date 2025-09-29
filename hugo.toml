@@ -42,54 +42,54 @@ theme = "minimal-bootstrap-hugo-theme"
   [[menu.nav]]
   name = "About"
   url = "/about/"
-  weight = 4
-  # Родительский пункт (с dropdown)
-  [[menu.nav]]
-  name = "Projects"
-  identifier = "projects"
-  url = "/projects/" 
   weight = 3
+  # # Родительский пункт (с dropdown)
+  # [[menu.nav]]
+  # name = "Projects"
+  # identifier = "projects"
+  # url = "/projects/" 
+  # weight = 3
   
-  # ВЛОЖЕННЫЕ пункты
-  [[menu.nav]]
-  name = "1st year"
-  parent = "projects"
-  url = "/1st/"
-  weight = 1
-  
-  [[menu.nav]]
-  name = "2nd year"
-  parent = "projects"
-  url = "/2nd/"
-  weight = 2
-  
-  [[menu.nav]]
-  name = "3rd year"
-  parent = "projects"
-  url = "/3rd/"
-  weight = 3
-  
-  [[menu.nav]]
-  name = "4th year"
-  parent = "projects"
-  url = "/4th/"
-  weight = 4
+  # # ВЛОЖЕННЫЕ пункты
   # [[menu.nav]]
   # name = "1st year"
+  # parent = "projects"
   # url = "/1st/"
-  # weight = 4
+  # weight = 1
+  
   # [[menu.nav]]
   # name = "2nd year"
+  # parent = "projects"
   # url = "/2nd/"
-  # weight = 5
+  # weight = 2
+  
   # [[menu.nav]]
   # name = "3rd year"
+  # parent = "projects"
   # url = "/3rd/"
-  # weight = 6
+  # weight = 3
+  
   # [[menu.nav]]
   # name = "4th year"
+  # parent = "projects"
   # url = "/4th/"
-  # weight = 7
+  # weight = 4
+  [[menu.nav]]
+  name = "1st year"
+  url = "/1st/"
+  weight = 4
+  [[menu.nav]]
+  name = "2nd year"
+  url = "/2nd/"
+  weight = 5
+  [[menu.nav]]
+  name = "3rd year"
+  url = "/3rd/"
+  weight = 6
+  [[menu.nav]]
+  name = "4th year"
+  url = "/4th/"
+  weight = 7
 
 
 [markup]
