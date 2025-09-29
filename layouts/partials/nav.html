@@ -1,7 +1,32 @@
-<nav class="custom-navbar">
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: {{ .Site.Params.navbarBackgroundColor }};">
   <div class="container">
-    {{ range .Site.Menus.nav }}
-    <a href="{{ .URL }}">{{ .Name }}</a>
-    {{ end }}
+    <a class="navbar-brand" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        {{ range .Site.Menus.nav }}
+          {{ if .HasChildren }}
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="{{ .URL }}" id="navbarDropdown{{ .Identifier }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                {{ .Name }}
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown{{ .Identifier }}">
+                {{ range .Children }}
+                  <li><a class="dropdown-item" href="{{ .URL }}">{{ .Name }}</a></li>
+                {{ end }}
+              </ul>
+            </li>
+          {{ else }}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
+            </li>
+          {{ end }}
+        {{ end }}
+      </ul>
+    </div>
   </div>
 </nav>
