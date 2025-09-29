@@ -46,6 +46,7 @@ theme = "minimal-bootstrap-hugo-theme"
   # Родительский пункт (с dropdown)
   [[menu.nav]]
   name = "Projects"
+  identifier = "projects"
   url = "/projects/" 
   weight = 3
   
