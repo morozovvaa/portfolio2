@@ -1,7 +1,6 @@
 {{- define "main" -}}
-
 <h1>{{ .Title }}</h1>
-
+{{ .Content }}
 {{ $pages := .Pages }}
 {{ range $pages.ByPublishDate.Reverse }}
   <p>
@@ -17,5 +16,4 @@
     {{ end }}
   </p>
 {{ end }}
-
 {{- end -}}
