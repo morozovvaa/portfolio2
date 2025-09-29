@@ -11,6 +11,7 @@ theme = "minimal-bootstrap-hugo-theme"
   post = "/:filename/"
 
 [params]
+  mainSections = []
   description = "Student portfolio"
   contentBackgroundColor = "#fff"
   contentTextColor = "#212529"
