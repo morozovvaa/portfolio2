@@ -33,8 +33,12 @@ theme = "minimal-bootstrap-hugo-theme"
 
 [menu]
   [[menu.nav]]
-  name = "Home"
+  name = "Diana Morozova"
   url = "/"
+  weight = 0
+  [[menu.nav]]
+  name = "Home"
+  url = "/home/"
   weight = 1
   [[menu.nav]]
   name = "Post"
