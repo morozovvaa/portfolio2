@@ -1,6 +1,6 @@
 baseURL = "https://morozovvaa.github.io/portfolio1/"
 languageCode = "en-us"
-title = "Some Title"
+title = "Diana Morozova"
 theme = "minimal-bootstrap-hugo-theme"
 
 [taxonomies]
@@ -11,7 +11,7 @@ theme = "minimal-bootstrap-hugo-theme"
   post = "/:filename/"
 
 [params]
-  description = "Some description"
+  description = "Student portfolio"
   contentBackgroundColor = "#fff"
   contentTextColor = "#212529"
   contentLinkColor = "#007bff"
@@ -44,19 +44,19 @@ theme = "minimal-bootstrap-hugo-theme"
   url = "/about/"
   weight = 3
   [[menu.nav]]
-  name = "1st"
+  name = "1st year"
   url = "/1st/"
   weight = 4
   [[menu.nav]]
-  name = "2nd"
+  name = "2nd year"
   url = "/2nd/"
   weight = 5
   [[menu.nav]]
-  name = "3rd"
+  name = "3rd year"
   url = "/3rd/"
   weight = 6
   [[menu.nav]]
-  name = "4th"
+  name = "4th year"
   url = "/4th/"
   weight = 7
 
