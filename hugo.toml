@@ -43,22 +43,52 @@ theme = "minimal-bootstrap-hugo-theme"
   name = "About"
   url = "/about/"
   weight = 3
+  # Родительский пункт (с dropdown)
   [[menu.nav]]
-  name = "1st year"
-  url = "/1st/"
+  name = "Projects"
+  url = "/projects/" 
   weight = 4
+  
+  # ВЛОЖЕННЫЕ пункты
   [[menu.nav]]
-  name = "2nd year"
+  name = "1st Year"
+  parent = "Projects"
+  url = "/1st/"
+  weight = 1
+  
+  [[menu.nav]]
+  name = "2nd Year"
+  parent = "Projects"
   url = "/2nd/"
-  weight = 5
+  weight = 2
+  
   [[menu.nav]]
-  name = "3rd year"
+  name = "3rd Year"
+  parent = "Projects"
   url = "/3rd/"
-  weight = 6
+  weight = 3
+  
   [[menu.nav]]
-  name = "4th year"
+  name = "4th Year"
+  parent = "Projects"
   url = "/4th/"
-  weight = 7
+  weight = 4
+  # [[menu.nav]]
+  # name = "1st year"
+  # url = "/1st/"
+  # weight = 4
+  # [[menu.nav]]
+  # name = "2nd year"
+  # url = "/2nd/"
+  # weight = 5
+  # [[menu.nav]]
+  # name = "3rd year"
+  # url = "/3rd/"
+  # weight = 6
+  # [[menu.nav]]
+  # name = "4th year"
+  # url = "/4th/"
+  # weight = 7
 
 
 [markup]
