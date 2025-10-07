@@ -1,3 +1,11 @@
+---
+title: "Программирование 6 семестр"
+date: 2024-12-12
+publishdate: 2024-12-12
+draft: false
+tags: ["Программирование"]
+---
+
 Лабораторная работа 1. Анализ данных из файлов MarketingSpend.csv и Retail.csv: https://colab.research.google.com/drive/1Czz3icP56vyZ6Ukr3Rr_FUJdozJP-nV7?usp=sharing
 
 Лабораторная работа 2. Анализ данных пассажиров Титаника: https://colab.research.google.com/drive/1S7VUxYTwQmJVZLUY9iRgYZJ6sfY7yMV0?usp=sharing
