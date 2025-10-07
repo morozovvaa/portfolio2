@@ -1,5 +1,5 @@
 ---
-title: " IT-менеджмент"
+title: "IT-менеджмент"
 date: 2024-12-12
 publishdate: 2024-12-12
 draft: false
