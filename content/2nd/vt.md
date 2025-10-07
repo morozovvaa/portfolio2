@@ -1,4 +1,11 @@
-вычтех
+---
+title: "Вычислительная техника"
+date: 2024-06-07
+publishdate: 2024-06-07
+draft: false
+tags: ["Программирование"]
+---
+
 лаб 1 https://disk.yandex.ru/i/jI3cWcsi3ZVjvw
 лаб 2 https://disk.yandex.ru/i/uX9d4FOAe-Sglw
 лаб 3 https://disk.yandex.ru/i/1gDEIGkigcCn1A
