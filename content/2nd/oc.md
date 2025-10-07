@@ -1,3 +1,10 @@
+---
+title: "Операционные системы"
+date: 2023-11-11
+publishdate: 2024-06-07
+draft: false
+tags: ["Программирование"]
+---
 ос
 
 лаб 1 https://disk.yandex.ru/i/MqhE8eAsYz23aQ
