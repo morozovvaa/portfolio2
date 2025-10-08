@@ -33,17 +33,29 @@ theme = "minimal-bootstrap-hugo-theme"
 
 [menu]
   [[menu.nav]]
-  name = "Home"
-  url = "/home/"
+  name = "Diana Morozova"
+  url = "/"
   weight = 1
   [[menu.nav]]
-  name = "Post"
-  url = "/post/"
+  name = "1st year"
+  url = "/1st/"
   weight = 2
+  [[menu.nav]]
+  name = "2nd year"
+  url = "/2nd/"
+  weight = 3
+  [[menu.nav]]
+  name = "3rd year"
+  url = "/3rd/"
+  weight = 4
+  [[menu.nav]]
+  name = "4th year"
+  url = "/4th/"
+  weight = 5
   [[menu.nav]]
   name = "About"
   url = "/about/"
-  weight = 3
+  weight = 6
   # # Родительский пункт (с dropdown)
   # [[menu.nav]]
   # name = "Projects"
@@ -75,23 +87,7 @@ theme = "minimal-bootstrap-hugo-theme"
   # parent = "projects"
   # url = "/4th/"
   # weight = 4
-  [[menu.nav]]
-  name = "1st year"
-  url = "/1st/"
-  weight = 4
-  [[menu.nav]]
-  name = "2nd year"
-  url = "/2nd/"
-  weight = 5
-  [[menu.nav]]
-  name = "3rd year"
-  url = "/3rd/"
-  weight = 6
-  [[menu.nav]]
-  name = "4th year"
-  url = "/4th/"
-  weight = 7
-
+ 
 
 [markup]
   defaultMarkdownHandler = "goldmark"
