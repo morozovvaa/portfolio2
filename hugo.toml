@@ -33,29 +33,25 @@ theme = "minimal-bootstrap-hugo-theme"
 
 [menu]
   [[menu.nav]]
-  name = "Diana Morozova"
-  url = "/"
-  weight = 1
-  [[menu.nav]]
   name = "1st year"
   url = "/1st/"
-  weight = 2
+  weight = 1
   [[menu.nav]]
   name = "2nd year"
   url = "/2nd/"
-  weight = 3
+  weight = 2
   [[menu.nav]]
   name = "3rd year"
   url = "/3rd/"
-  weight = 4
+  weight = 3
   [[menu.nav]]
   name = "4th year"
   url = "/4th/"
-  weight = 5
+  weight = 4
   [[menu.nav]]
   name = "About"
   url = "/about/"
-  weight = 6
+  weight = 5
   # # Родительский пункт (с dropdown)
   # [[menu.nav]]
   # name = "Projects"
