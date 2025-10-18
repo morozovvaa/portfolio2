@@ -1,42 +1,26 @@
 baseURL = "https://morozovvaa.github.io/portfolio2/"
 languageCode = "ru"
-defaultContentLanguage = "ru"
 title = "Diana Morozova"
 theme = "PaperMod"
 
-[pagination]
-pagerSize = 20
-
-[markup.highlight]
-style = "monokai"
-
 [params]
-  mainSections = ["post"]
   author = "Diana Morozova"
-  info = ["Student", "CS"]
   description = "Student Portfolio"
-  keywords = "portfolio,student"
-  avatarURL = "images/avatar.jpg"
-  colorScheme = "auto"
-  hideColorSchemeToggle = false
-  since = 2024
+  keywords = ["portfolio", "student"]
+  profileMode = true
+  homeInfoParams:
+    Title = "Diana Morozova"
+    Content = "CS Student"
 
-[taxonomies]
-  tag = "tags"
-  category = "categories"
-
-[[params.social]]
-  name = "Github"
-  icon = "fa-brands fa-github fa-2x"
-  weight = 1
-  url = "https://github.com/morozovvaa/"
-
-[[menu.main]]
-  name = "Blog"
-  weight = 1
-  url = "post/"
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/morozovvaa"
 
 [[menu.main]]
   name = "About"
-  weight = 2
   url = "about/"
+  weight = 1
+
+[markup]
+  [markup.highlight]
+    style = "monokai"
