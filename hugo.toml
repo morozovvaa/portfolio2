@@ -11,6 +11,7 @@ pagerSize = 20
 style = "monokai"
 
 [params]
+  mainSections = ["posts"]
   author = "Diana Morozova"
   info = ["Student", "CS"]
   description = "Student Portfolio"
@@ -31,26 +32,11 @@ style = "monokai"
   url = "https://github.com/morozovvaa/"
 
 [[menu.main]]
-  name = "1st Year"
+  name = "Blog"
   weight = 1
-  url = "1st/"
-
-[[menu.main]]
-  name = "2nd Year"
-  weight = 2
-  url = "2nd/"
-
-[[menu.main]]
-  name = "3rd Year"
-  weight = 3
-  url = "3rd/"
-
-[[menu.main]]
-  name = "4th Year"
-  weight = 4
-  url = "4th/"
+  url = "post/"
 
 [[menu.main]]
   name = "About"
-  weight = 5
+  weight = 2
   url = "about/"
