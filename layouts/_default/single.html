@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ .Title }}</title>
+</head>
+<body>
+  <h1>{{ .Title }}</h1>
+  {{ if .Date }}<p><small>{{ .Date.Format "2 Jan 2006" }}</small></p>{{ end }}
+  
+  <div class="content">
+    {{ .Content }}
+  </div>
+  
+  <p><a href="javascript:history.back()">← Вернуться</a></p>
+</body>
+</html>
