@@ -4,23 +4,24 @@ title = "Diana Morozova"
 theme = "PaperMod"
 
 [params]
-  author = "Diana Morozova"
-  description = "Student Portfolio"
-  keywords = ["portfolio", "student"]
-  profileMode = true
-  homeInfoParams:
-    Title = "Diana Morozova"
-    Content = "CS Student"
+author = "Diana Morozova"
+description = "Student Portfolio"
+keywords = ["portfolio", "student"]
+profileMode = true
+
+[params.homeInfoParams]
+Title = "Diana Morozova"
+Content = "CS Student"
 
 [[params.socialIcons]]
-  name = "github"
-  url = "https://github.com/morozovvaa"
+name = "github"
+url = "https://github.com/morozovvaa"
 
 [[menu.main]]
-  name = "About"
-  url = "about/"
-  weight = 1
+name = "About"
+url = "about/"
+weight = 1
 
 [markup]
-  [markup.highlight]
-    style = "monokai"
+[markup.highlight]
+style = "monokai"
