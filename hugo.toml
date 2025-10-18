@@ -2,7 +2,7 @@ baseURL = "https://morozovvaa.github.io/portfolio2/"
 languageCode = "ru"
 defaultContentLanguage = "ru"
 title = "Diana Morozova"
-theme = "hugo-coder"
+theme = "PaperMod"
 
 [pagination]
 pagerSize = 20
