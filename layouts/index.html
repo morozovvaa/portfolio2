@@ -1,0 +1,136 @@
+{{ define "main" }}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ .Site.Title }}</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; background: #f5f5f5; color: #333; }
+    .container { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
+    h1 { text-align: center; margin-bottom: 40px; font-size: 32px; }
+    .tabs { display: flex; gap: 10px; margin-bottom: 30px; justify-content: center; flex-wrap: wrap; }
+    .tab-btn { 
+      padding: 12px 24px; 
+      border: 2px solid #007bff; 
+      background: white; 
+      color: #007bff; 
+      cursor: pointer; 
+      border-radius: 5px;
+      font-size: 16px;
+      transition: all 0.3s;
+    }
+    .tab-btn.active { 
+      background: #007bff; 
+      color: white; 
+    }
+    .tab-btn:hover { 
+      background: #007bff; 
+      color: white; 
+    }
+    .tab-content { 
+      background: white; 
+      padding: 30px; 
+      border-radius: 8px; 
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      display: none;
+    }
+    .tab-content.active { 
+      display: block; 
+    }
+    .tab-content h2 { 
+      margin-bottom: 20px; 
+      color: #007bff; 
+      font-size: 24px;
+    }
+    .tab-content h3 { 
+      margin-top: 15px;
+      margin-bottom: 10px; 
+      color: #333; 
+    }
+    .tab-content p { 
+      line-height: 1.6; 
+      margin-bottom: 15px;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+    .tab-content a {
+      color: #007bff;
+      text-decoration: none;
+      word-break: break-all;
+    }
+    .tab-content a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>{{ .Site.Title }}</h1>
+    
+    <div class="tabs">
+      <button class="tab-btn active" onclick="showTab(event, 'tab-1st')">1 курс</button>
+      <button class="tab-btn" onclick="showTab(event, 'tab-2nd')">2 курс</button>
+      <button class="tab-btn" onclick="showTab(event, 'tab-3rd')">3 курс</button>
+      <button class="tab-btn" onclick="showTab(event, 'tab-4th')">4 курс</button>
+      <button class="tab-btn" onclick="showTab(event, 'tab-about')">О себе</button>
+    </div>
+
+    <!-- 1st year content -->
+    <div id="tab-1st" class="tab-content active">
+      {{ range (where (where .Site.Pages "Section" "1st") "Kind" "page") }}
+        <h3>{{ .Title }}</h3>
+        <p>{{ .Content }}</p>
+      {{ end }}
+    </div>
+
+    <!-- 2nd year content -->
+    <div id="tab-2nd" class="tab-content">
+      {{ range (where (where .Site.Pages "Section" "2nd") "Kind" "page") }}
+        <h3>{{ .Title }}</h3>
+        <p>{{ .Content }}</p>
+      {{ end }}
+    </div>
+
+    <!-- 3rd year content -->
+    <div id="tab-3rd" class="tab-content">
+      {{ range (where (where .Site.Pages "Section" "3rd") "Kind" "page") }}
+        <h3>{{ .Title }}</h3>
+        <p>{{ .Content }}</p>
+      {{ end }}
+    </div>
+
+    <!-- 4th year content -->
+    <div id="tab-4th" class="tab-content">
+      {{ range (where (where .Site.Pages "Section" "4th") "Kind" "page") }}
+        <h3>{{ .Title }}</h3>
+        <p>{{ .Content }}</p>
+      {{ end }}
+    </div>
+
+    <!-- About content -->
+    <div id="tab-about" class="tab-content">
+      {{ range (where (where .Site.Pages "Section" "post") "Kind" "page") }}
+        {{ if eq .File.BaseFileName "about" }}
+          {{ .Content }}
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+
+  <script>
+    function showTab(evt, tabName) {
+      const contents = document.querySelectorAll('.tab-content');
+      contents.forEach(tab => tab.classList.remove('active'));
+      
+      const buttons = document.querySelectorAll('.tab-btn');
+      buttons.forEach(btn => btn.classList.remove('active'));
+      
+      document.getElementById(tabName).classList.add('active');
+      evt.currentTarget.classList.add('active');
+    }
+  </script>
+</body>
+</html>
+{{ end }}
