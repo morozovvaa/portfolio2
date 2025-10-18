@@ -1,12 +1,9 @@
----
-title: "Информационные технологии"
-date: 2023-11-11
-publishdate: 2024-06-07
-draft: false
-tags: ["Программирование"]
----
++++
+title = "Информационные технологии"
+date = 2023-11-11
+tags = ["Программирование"]
++++
 
----
 
 Лабораторная работа №1 https://drive.google.com/drive/folders/1ASXNI5UOgWPinhJRnl_ejZbgxTLj-DJx?usp=sharing
 HTMLAcademy https://drive.google.com/drive/folders/1y93zd-FCp3T_SE9SATDaen5tFfHm2Imp?usp=drive_link
