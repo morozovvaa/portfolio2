@@ -1,18 +1,16 @@
-{{ define "main" }}
-<section class="container">
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ .Title }}</title>
+</head>
+<body>
   <h1>{{ .Title }}</h1>
   
-  {{ if .Content }}
-    <div class="content">
-      {{ .Content }}
+  {{ range .Pages }}
+    <div style="margin: 20px 0; padding: 15px; border: 1px solid #ccc;">
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      {{ if .Date }}<p><small>{{ .Date.Format "2 Jan 2006" }}</small></p>{{ end }}
     </div>
   {{ end }}
-
-  {{ range .Pages }}
-    <article style="margin: 20px 0; padding: 15px; border-left: 3px solid #007bff;">
-      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-      {{ if .Date }}<small>{{ .Date.Format "2 Jan 2006" }}</small>{{ end }}
-    </article>
-  {{ end }}
-</section>
-{{ end }}
+</body>
+</html>
