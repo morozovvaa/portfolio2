@@ -11,7 +11,7 @@ pagerSize = 20
 style = "monokai"
 
 [params]
-  mainSections = ["posts"]
+  mainSections = ["post"]
   author = "Diana Morozova"
   info = ["Student", "CS"]
   description = "Student Portfolio"
