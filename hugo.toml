@@ -33,22 +33,22 @@ style = "monokai"
 [[menu.main]]
   name = "1st Year"
   weight = 1
-  url = "1st-year/"
+  url = "1st/"
 
 [[menu.main]]
   name = "2nd Year"
   weight = 2
-  url = "2nd-year/"
+  url = "2nd/"
 
 [[menu.main]]
   name = "3rd Year"
   weight = 3
-  url = "3rd-year/"
+  url = "3rd/"
 
 [[menu.main]]
   name = "4th Year"
   weight = 4
-  url = "4th-year/"
+  url = "4th/"
 
 [[menu.main]]
   name = "About"
