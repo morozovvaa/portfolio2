@@ -1,27 +1,44 @@
 baseURL = "https://morozovvaa.github.io/portfolio2/"
 languageCode = "ru"
+defaultContentLanguage = "ru"
 title = "Diana Morozova"
-theme = "PaperMod"
+theme = "hugo-coder"
 
 [params]
-author = "Diana Morozova"
-description = "Student Portfolio"
-keywords = ["portfolio", "student"]
-profileMode = true
+  author = "Diana Morozova"
+  info = ["Student", "CS"]
+  description = "Student Portfolio"
+  keywords = "portfolio,student"
+  colorScheme = "auto"
+  hideColorSchemeToggle = false
 
-[params.homeInfoParams]
-Title = "Diana Morozova"
-Content = "CS Student"
-
-[[params.socialIcons]]
-name = "github"
-url = "https://github.com/morozovvaa"
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/morozovvaa/"
 
 [[menu.main]]
-name = "About"
-url = "about/"
-weight = 1
+  name = "1st Year"
+  weight = 1
+  url = "1st/"
 
-[markup]
-[markup.highlight]
-style = "monokai"
+[[menu.main]]
+  name = "2nd Year"
+  weight = 2
+  url = "2nd/"
+
+[[menu.main]]
+  name = "3rd Year"
+  weight = 3
+  url = "3rd/"
+
+[[menu.main]]
+  name = "4th Year"
+  weight = 4
+  url = "4th/"
+
+[[menu.main]]
+  name = "About"
+  weight = 5
+  url = "about/"
