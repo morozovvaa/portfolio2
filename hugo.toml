@@ -49,6 +49,11 @@ weight = 4
 url = "4th/"
 
 [[menu.main]]
-name = "About"
+name = "Modules"
 weight = 5
+url = "modules/"
+
+[[menu.main]]
+name = "About"
+weight = 6
 url = "about/"
