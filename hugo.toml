@@ -13,6 +13,7 @@ noClasses = false
 unsafe = true
 
 [params]
+hideDate = true
 author = "Diana Morozova"
 description = "Student Portfolio"
 keywords = "portfolio,student"
