@@ -17,7 +17,7 @@ title: "Портфолио"
       <div class="card-body">
         <h5 class="card-title">1 курс</h5>
         <p class="card-text">Проекты и лабораторные работы первого года обучения.</p>
-        <a href="/portfolio1/1st/" class="btn btn-primary">Перейти</a>
+        <a href="/portfolio2/1st/" class="btn btn-primary">Перейти</a>
       </div>
     </div>
   </div>
@@ -27,7 +27,7 @@ title: "Портфолио"
       <div class="card-body">
         <h5 class="card-title">2 курс</h5>
         <p class="card-text">Учебные работы и исследования второго года обучения.</p>
-        <a href="/portfolio1/2nd/" class="btn btn-primary">Перейти</a>
+        <a href="/portfolio2/2nd/" class="btn btn-primary">Перейти</a>
       </div>
     </div>
   </div>
@@ -37,7 +37,7 @@ title: "Портфолио"
       <div class="card-body">
         <h5 class="card-title">3 курс</h5>
         <p class="card-text">Курсовые и исследовательские проекты третьего курса.</p>
-        <a href="/portfolio1/3rd/" class="btn btn-primary">Перейти</a>
+        <a href="/portfolio2/3rd/" class="btn btn-primary">Перейти</a>
       </div>
     </div>
   </div>
@@ -47,7 +47,7 @@ title: "Портфолио"
       <div class="card-body">
         <h5 class="card-title">4 курс</h5>
         <p class="card-text">Дипломные проекты и завершающие работы обучения.</p>
-        <a href="/portfolio1/4th/" class="btn btn-primary">Перейти</a>
+        <a href="/portfolio2/4th/" class="btn btn-primary">Перейти</a>
       </div>
     </div>
   </div>
