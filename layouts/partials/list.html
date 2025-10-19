@@ -15,7 +15,12 @@
     {{ range .Paginator.Pages }}
     <li>
       {{ if .Params.category }}
-        <span class="date">{{ .Params.category }}</span>
+        {{ $categorySlug := .Params.category | urlize }}
+        <span class="date">
+          <a href="/portfolio2/modules/#{{ $categorySlug }}" style="text-decoration: none; color: inherit;">
+            {{ .Params.category }}
+          </a>
+        </span>
       {{ else }}
         <span class="date">{{ .Date | time.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</span>
       {{ end }}
