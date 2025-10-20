@@ -60,6 +60,11 @@ weight = 6
 url = "pract/"
 
 [[menu.main]]
-name = "About"
+name = "Coursework"
 weight = 7
+url = "kurs/"
+
+[[menu.main]]
+name = "About"
+weight = 8
 url = "about/"
