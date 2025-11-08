@@ -18,6 +18,9 @@ theme = "hugo-coder"
   info = ["Студентка", "Информатика"]
   avatarURL = "images/avatar.jpg"
   dateFormat = "2 January 2006"
+
+  favicon_32 = "images/favicon-32x32.png"
+  favicon_16 = "images/favicon-16x16.png"
   
   # Цветовая схема
   colorScheme = "auto"
