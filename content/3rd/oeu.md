@@ -1,14 +1,22 @@
----
-title: "Основы электронного управления"
-date: 2024-12-12
-publishdate: 2024-12-12
-draft: false
-tags: ["Программирование"]
----
++++
+title = "Основы электронного управления"
+date = 2024-12-12
++++
+
+Добро пожаловать в раздел **работ по дисциплине Основы электронного управления** за время обучения.  
 
 ---
 
-[лаб 1](https://disk.yandex.ru/i/cgpYaYpe3G-fhg)
-[лаб 2](https://disk.yandex.ru/i/wqXMsDBxe44BQA)
-[лаб 3](https://disk.yandex.ru/i/Li28S8NxJo9ySQ)
-[лаб 4-5](https://disk.yandex.ru/i/dtt4GmPfq6uIZw)
+## Лабораторные работы
+
+---
+
+**[Лабораторная работа №1](https://disk.yandex.ru/i/cgpYaYpe3G-fhg)**
+
+**[Лабораторная работа №2](https://disk.yandex.ru/i/wqXMsDBxe44BQA)**
+
+**[Лабораторная работа №3](https://disk.yandex.ru/i/Li28S8NxJo9ySQ)**
+
+**[Лабораторная работа №4-5](https://disk.yandex.ru/i/dtt4GmPfq6uIZw)**
+
+---
