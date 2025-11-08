@@ -1,15 +1,28 @@
----
-title: "Пакеты прикладных программ для статистической обработки и анализа данных"
-date: 2023-11-11
-publishdate: 2024-06-07
-draft: false
-tags: ["Программирование"]
++++
+title = "Пакеты прикладных программ для статистической обработки и анализа данных"
+date = 2023-11-11
++++
+
+Добро пожаловать в раздел **работ по дисциплине Пакеты прикладных программ для статистической обработки и анализа данных** за время обучения.  
+
 ---
 
+## Лабораторные работы
 
-тема 1 https://disk.yandex.ru/i/IgDvOdbiy53XMw
-тема 2
-1 https://disk.yandex.ru/i/KLdor8TzPff7zw
-2 https://disk.yandex.ru/i/rYofnz6WN313Bg
-тема 3
-https://disk.yandex.ru/d/T5-riL-7ONQuHw
+---
+
+### Тема №1
+
+**[Задание](https://disk.yandex.ru/i/IgDvOdbiy53XMw)**
+
+### Тема №2
+
+**[Задание 1](https://disk.yandex.ru/i/KLdor8TzPff7zw)**
+
+**[Задание 2](https://disk.yandex.ru/i/rYofnz6WN313Bg)**
+
+### Тема №3
+
+**[Задание](https://disk.yandex.ru/d/T5-riL-7ONQuHw)**
+
+---
