@@ -26,7 +26,7 @@ theme = "hugo-coder"
   colorScheme = "auto"
   hideColorSchemeToggle = false
   
-  since = 2024
+  since = 2025
   
   # Скрыть даты на страницах (если нужно)
   hideDate = true
