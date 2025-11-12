@@ -1,0 +1,27 @@
+{{ define "title" }}
+  {{ .Title }} · {{ .Site.Title }}
+{{ end }}
+{{ define "content" }}
+  
+  <article>
+    <header>
+      <h1>{{ .Title }}</h1>
+    </header>
+    
+    <div class="content">
+      {{ .Content }}
+    </div>
+
+    {{- if .Params.tags }}
+    <p class="meta">
+      Теги: 
+      {{- range .Params.tags }}
+      <a href="{{ "tags/" | absURL }}{{ . | urlize }}" class="tag">{{ . }}</a>
+      {{- end }}
+    </p>
+    {{- end }}
+    
+  </article>
+
+  {{ partial "posts/math.html" . }}
+{{ end }}
