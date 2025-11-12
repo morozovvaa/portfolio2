@@ -22,27 +22,22 @@ theme = "hugo-coder"
   favicon_32 = "images/favicon-32x32.png"
   favicon_16 = "images/favicon-16x16.png"
   
-  # Цветовая схема
   colorScheme = "auto"
   hideColorSchemeToggle = false
   
   since = 2025
   
-  # Скрыть даты на страницах (если нужно)
   hideDate = true
 
-# Таксономии (если будешь использовать)
 [taxonomies]
   category = "categories"
 
-# Социальные ссылки
 [[params.social]]
   name = "Github"
   icon = "fa-brands fa-github fa-2x"
   weight = 1
   url = "https://github.com/morozovvaa/"
 
-# Меню навигации
 [[menu.main]]
   name = "1 курс"
   weight = 1
