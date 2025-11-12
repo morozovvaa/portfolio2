@@ -1,6 +1,5 @@
 +++
-title = "1st Year"
-description = "First year materials"
+title = "1 курс"
 +++
 
 Материалы и работы первого курса
