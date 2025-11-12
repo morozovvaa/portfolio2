@@ -15,7 +15,7 @@ theme = "hugo-coder"
   author = "Diana Morozova"
   description = "Студенческое портфолио"
   keywords = "portfolio,student,programming"
-  info = ["Студентка", "Информатика"]
+  info = ["Student"]
   avatarURL = "images/avatar.jpg"
   dateFormat = "2 January 2006"
 
@@ -45,41 +45,36 @@ theme = "hugo-coder"
 
 # Меню навигации
 [[menu.main]]
-  name = "О себе"
-  weight = 1
-  url = "about/"
-
-[[menu.main]]
   name = "1 курс"
-  weight = 2
+  weight = 1
   url = "1st/"
 
 [[menu.main]]
   name = "2 курс"
-  weight = 3
+  weight = 2
   url = "2nd/"
 
 [[menu.main]]
   name = "3 курс"
-  weight = 4
+  weight = 3
   url = "3rd/"
 
 [[menu.main]]
   name = "4 курс"
-  weight = 5
+  weight = 4
   url = "4th/"
 
 [[menu.main]]
-  name = "Модули"
-  weight = 6
-  url = "modules/"
-
-[[menu.main]]
   name = "Практики"
-  weight = 7
+  weight = 5
   url = "pract/"
 
 [[menu.main]]
   name = "Курсовые"
-  weight = 8
+  weight = 6
   url = "kurs/"
+
+[[menu.main]]
+  name = "О себе"
+  weight = 7
+  url = "about/"
