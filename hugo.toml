@@ -34,7 +34,6 @@ theme = "hugo-coder"
 # Таксономии (если будешь использовать)
 [taxonomies]
   category = "categories"
-  tag = "tags"
 
 # Социальные ссылки
 [[params.social]]
